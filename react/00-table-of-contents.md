@@ -23,10 +23,11 @@
 | **13** | **Real-World Architecture** | Feature-First Folder Structure, Barrel Exports Trap, JWT Storage Security, Layered Error Boundaries, Docker Multi-Stage, Vite Env | [Read Guide →](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/13-real-world-patterns-qa.md) |
 | **14** | **Ecosystem & Tooling** | Vite vs Webpack/CRA, Next.js Decisions, shadcn/ui vs MUI, Framer Motion `AnimatePresence`, Modern Library Replacements | [Read Guide →](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/14-ecosystem-qa.md) |
 | **15** | **Behavioral & System Design** | RADIO Framework, Infinite Scroll Feed Design, Real-time Chat, 15-Widget Dashboard, Debugging Disaster Scenarios, STAR Method | [Read Guide →](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/15-behavioral-and-system-design-qa.md) |
+| **16** | **React 17, 18 & 19 Evolution** | Event Delegation Shifts, Concurrent React, Automatic Batching, Streaming SSR, React 19 Actions (`useActionState`, `useOptimistic`, `use`), Server Components (RSC), Native `ref`, Document Metadata, React Compiler | [Read Guide →](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/16-react-17-18-19-features-qa.md) |
 
 ---
 
 ## 🎯 How to Use This Guide
-1. **🟢 Junior (0-2 years):** Focus on modules 01, 02, 03, 06, 07, and 09.
-2. **🟡 Mid-Level (2-4 years):** Master modules 03, 04, 05, 08, 10, 11, and 12.
-3. **🔴 Senior / Staff (5+ years):** Master modules 04, 05, 08, 11, 13, 14, and 15, focusing on trade-off decisions, performance diagnostics, and system design frameworks.
+1. **🟢 Junior (0-2 years):** Focus on modules 01, 02, 03, 06, 07, 09, and 16 (React 17-19 fundamentals).
+2. **🟡 Mid-Level (2-4 years):** Master modules 03, 04, 05, 08, 10, 11, 12, and 16 (Transitions, Actions, Batching).
+3. **🔴 Senior / Staff (5+ years):** Master modules 04, 05, 08, 11, 13, 14, 15, and 16, focusing on Concurrency internals, Streaming SSR, Server Component architecture, Compiler optimizations, and system design frameworks.

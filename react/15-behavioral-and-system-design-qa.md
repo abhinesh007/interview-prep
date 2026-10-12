@@ -279,9 +279,7 @@ function ProductDetail({ product }) {
 
 ---
 
-## 🏁 Summary Checklist: Master Guide Complete!
-
-You have completed all 15 core interview preparation guides!
+## 🏁 Summary Checklist
 
 | # | File | Core Focus |
 |---|---|---|
@@ -300,3 +298,9 @@ You have completed all 15 core interview preparation guides!
 | 13 | [`13-real-world-patterns-qa.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/13-real-world-patterns-qa.md) | Folder Architecture, Security, Docker, Vite Env |
 | 14 | [`14-ecosystem-qa.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/14-ecosystem-qa.md) | Vite vs Webpack, Next.js, shadcn/ui, Framer Motion |
 | 15 | [`15-behavioral-and-system-design-qa.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/15-behavioral-and-system-design-qa.md) | Frontend System Design, Scenarios, Code Reviews, STAR |
+| 16 | [`16-react-17-18-19-features-qa.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/16-react-17-18-19-features-qa.md) | React 17-19 Features, Concurrency, Actions, RSC, Compiler |
+
+---
+
+> **Next:** [16. React 17, 18 & 19 Evolution →](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/react/16-react-17-18-19-features-qa.md)
+

@@ -510,6 +510,41 @@ Every file follows this format for each question:
 
 ---
 
+### 📄 `16-react-17-18-19-features-qa.md` — React 17, 18, and 19 Evolution & Features (17-20 Questions)
+
+**Sections:**
+1. **React 17: Architectural Foundation & Event Delegation**
+   - Why React 17 was the "No New Features" release and why it mattered for enterprise apps
+   - Root-level event delegation vs `document` delegation (fixing micro-frontends and multi-version coexistence)
+   - Removal of SyntheticEvent pooling: why `e.persist()` was eliminated and what bugs it solved
+   - The New JSX Transform (`react/jsx-runtime` vs classic `React.createElement`)
+   - Async effect cleanup execution and native component stack traces
+
+2. **React 18: Concurrent Rendering & Streaming SSR**
+   - What is Concurrent React? How `createRoot` unlocks interruptible rendering & priority lanes
+   - Automatic batching everywhere (promises, timeouts, native events) & `flushSync` opt-out
+   - Urgent vs Non-urgent transitions: `useTransition` and `useDeferredValue` vs debouncing
+   - Streaming Server-Side Rendering (`renderToPipeableStream`) & Selective Hydration with `<Suspense>`
+   - StrictMode double-mount simulation in development & resilient cleanup patterns
+   - New Library Hooks: `useId` (SSR-safe IDs), `useSyncExternalStore` (solving tearing), `useInsertionEffect` (CSS-in-JS)
+
+3. **React 19: Actions, Server Components & React Compiler**
+   - The Actions paradigm: async transitions without manual `isLoading`/`error` state boilerplate
+   - `useActionState`, `useFormStatus`, and `useOptimistic` working together in mutation flows
+   - The `use()` API: reading Promises and Context conditionally inside `if` statements and loops
+   - React Server Components (RSC) vs SSR: zero client bundle size, server-only code, and `"use client"` boundaries
+   - Server Actions (`'use server'`) and type-safe RPC mutations
+   - Deprecation of `forwardRef`: `ref` as a standard component prop
+   - Native Document Metadata (`<title>`, `<meta>`, `<link>`) hoisting & Asset Preloading APIs (`preload`, `preinit`)
+   - The React Compiler (React Forget): build-time automatic memoization vs `useMemo`/`useCallback`
+
+4. **Evolutionary Comparison & Patterns**
+   - 📊 Master Comparison Table: React 16 vs 17 vs 18 vs 19 across 10 dimensions
+   - How it was done earlier vs How it is done today
+   - Widely used modern production patterns (Progressive form enhancement, Leaf client islands, AbortController effects)
+
+---
+
 ## 📐 Standards for Each File
 
 ```
@@ -551,12 +586,12 @@ Every file follows this format for each question:
 
 | Metric | Estimate |
 |--------|----------|
-| Total files | 16 (including this plan) |
-| Total questions | ~220-250 |
-| Coding exercises | ~50+ |
-| Output prediction traps | ~30+ |
-| System design scenarios | ~10-15 |
-| Estimated study time | 6-8 hours (full guide) |
+| Total files | 17 (including this plan) |
+| Total questions | ~240-270 |
+| Coding exercises | ~55+ |
+| Output prediction traps | ~35+ |
+| System design scenarios | ~12-18 |
+| Estimated study time | 7-9 hours (full guide) |
 
 ---
 
@@ -577,6 +612,7 @@ Every file follows this format for each question:
 13. `13-real-world-patterns-qa.md`
 14. `14-ecosystem-qa.md`
 15. `15-behavioral-and-system-design-qa.md`
+16. `16-react-17-18-19-features-qa.md`
 
 ---
 
