@@ -24,6 +24,7 @@
 | **13** | [Performance, Deferrable Views (`@defer`) & SSR Hydration](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/13-performance-ssr-and-hydration-qa.md) | 🔴 Senior | ✅ Ready |
 | **14** | [Modern Unit & Integration Testing (Jest/Vitest & Harnesses)](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/14-testing-unit-and-integration-qa.md) | 🟡 Mid – 🔴 Senior | ✅ Ready |
 | **15** | [System Design & Senior Enterprise Scenarios](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/15-system-design-and-senior-scenarios-qa.md) | 🔴 Senior – 🟣 Lead | ✅ Ready |
+| **16** | [Angular Evolution: v10 to v22 Paradigm Shifts](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/16-version-evolution-v10-to-v22-paradigm-shifts.md) | 🟡 Mid – 🟣 Lead | ✅ Ready |
 
 ---
 
@@ -54,6 +55,7 @@ Each question in every document follows this standardized format:
 - `04-signals-and-reactivity-qa.md` (Signals, model, queries)
 - `05-rxjs-and-reactive-patterns-qa.md` (RxJS ↔ Signals Interop)
 - `10-state-management-ngrx-and-stores-qa.md` (NgRx SignalStore)
+- `16-version-evolution-v10-to-v22-paradigm-shifts.md` (Evolution & Before/After Code Comparison)
 
 ### 🏢 Enterprise & Senior Architect Track
 - `02-dependency-injection-qa.md` (Hierarchical injectors & resolution)
@@ -62,3 +64,4 @@ Each question in every document follows this standardized format:
 - `12-migration-older-to-modern-angular-qa.md` (Legacy Angular 10/11 migration to 18–22)
 - `13-performance-ssr-and-hydration-qa.md` (SSR, Hydration & `@defer`)
 - `15-system-design-and-senior-scenarios-qa.md` (Micro-frontends & scale)
+- `16-version-evolution-v10-to-v22-paradigm-shifts.md` (16 Paradigm Shifts & Version Milestones)

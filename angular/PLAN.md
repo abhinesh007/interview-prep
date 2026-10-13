@@ -51,6 +51,7 @@ Every question in the guide adheres to the battle-tested, structured interview f
 | `13` | [`13-performance-ssr-and-hydration-qa.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/13-performance-ssr-and-hydration-qa.md) | Non-destructive Hydration, `@defer` block, Bundle Budget, Web Workers | 15–18 |
 | `14` | [`14-testing-unit-and-integration-qa.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/14-testing-unit-and-integration-qa.md) | Karma/Jasmine to Jest/Vitest, Component Harnesses, Signal Testing, Mocking | 14–16 |
 | `15` | [`15-system-design-and-senior-scenarios-qa.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/15-system-design-and-senior-scenarios-qa.md) | Enterprise Design Scenarios, Microfrontends (Module Federation), Security | 12–15 |
+| `16` | [`16-version-evolution-v10-to-v22-paradigm-shifts.md`](file:///Users/abhineshgour/learning-space/abhi-agy/interview-prep/angular/16-version-evolution-v10-to-v22-paradigm-shifts.md) | Progressive v10–v22 Feature Roadmap, 16 Before-vs-After Paradigm Shifts, Evolution Matrix | 16–20 |
 
 ---
 
@@ -305,6 +306,31 @@ Every question in the guide adheres to the battle-tested, structured interview f
 3. **Real-world Senior Scenarios:**
    - Diagnosing a memory leak in an app running for 8 hours on a trading terminal.
    - Architecting real-time WebSocket state distribution with high message frequency.
+
+---
+
+### 📄 `16-version-evolution-v10-to-v22-paradigm-shifts.md` — Evolution & Paradigm Shifts
+1. **Progressive Version-by-Version Roadmap (v10 ➔ v22):**
+   - Detailed milestone breakdowns: v10/11 (strict & font inlining) ➔ v12/13 (View Engine sunset, pure ESM APF) ➔ v14/15 (Typed Forms, Standalone preview, MDC) ➔ v16/17 (Signals, Deferrable Views, Built-in control flow, esbuild) ➔ v18/19 (Zoneless, Signal inputs/outputs/model, linkedSignal, resource, @let) ➔ v20–v22 (pure Zoneless, Signal-first Forms & Router, compile-time reactivity).
+2. **16 Side-by-Side Paradigm Shifts (How it was done Earlier vs How to do it in Modern):**
+   - Bootstrapping (`AppModule` vs `bootstrapApplication`).
+   - Component setup (NgModules vs Standalone default).
+   - Control flow (`*ngIf`/`*ngFor` vs `@if`/`@for`/`@let`).
+   - Reactivity (`BehaviorSubject` vs Signals).
+   - Inputs/Outputs (`@Input()`/`@Output()` vs `input()`/`output()`).
+   - Two-way binding (`[(ngModel)]` vs `model()`).
+   - Queries (`@ViewChild` vs `viewChild()`).
+   - DI & Cleanup (Constructor DI + `OnDestroy` vs `inject()` + `DestroyRef`).
+   - Routing (`RouterModule.forRoot` vs `provideRouter` + `withComponentInputBinding`).
+   - HTTP (`HttpClientModule` vs `provideHttpClient` + functional interceptors).
+   - Forms (`UntypedFormGroup` vs Typed Forms).
+   - Dynamic components (`ComponentFactoryResolver` vs `vcr.createComponent`).
+   - DOM lifecycle & SSR (`ngAfterViewInit` + `isPlatformBrowser` vs `afterNextRender`).
+   - Deferral (route-only vs `@defer`).
+   - Change detection (Zone.js vs `provideZonelessChangeDetection`).
+3. **Master Evolution Matrix & Interview Challenges:**
+   - Quick-reference comparison cheat sheet across 20+ architectural categories.
+   - Senior interview questions on mental model transitions and architectural rationales.
 
 ---
 
